@@ -7,7 +7,7 @@
 /* Wrapper */
 
 	@mixin wrapper-pad($pad) {
-		padding: 0 0 ($pad * 2) 0;
+		padding: 0 0 ($pad) 0;
 
 		// Sections (all).
 			section {
@@ -108,7 +108,6 @@
 
 			}
 
-		// Copyright.
 			.copyright {
 				padding: 0 $pad;
 			}
@@ -151,7 +150,6 @@
 
 			}
 
-		// Copyright.
 			.copyright {
 				padding: 0 $pad $pad $pad;
 			}
@@ -160,7 +158,6 @@
 
 	#wrapper {
 		$pad: 5rem;
-
 		position: relative;
 		width: 100vw;
 
@@ -355,9 +352,8 @@
 
 			}
 
-		// Copyright.
 			.copyright {
-				color: _palette(fg-light);
+				color: _palette(fg-dark);
 				font-size: 1rem;
 				left: 50vw;
 				position: relative;
@@ -535,7 +531,6 @@
 
 				}
 
-			// Copyright.
 				.copyright {
 					left: 0;
 					width: 100%;
