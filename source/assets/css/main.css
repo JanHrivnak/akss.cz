@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import 'fontawesome-all.min.css';
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,700,300i,600i,700i|Raleway:600,800");
 /*
@@ -2299,6 +2300,7 @@ ul.feature-icons li:before {
   text-align: center;
   top: 0;
   width: 3.25rem;
+  content: "§";
 }
 ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
   margin-top: 0;
@@ -2478,6 +2480,9 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
 #wrapper section > footer {
   padding: 0 10rem;
 }
+#wrapper section > footer h4 {
+  margin-bottom: 0.875rem;
+}
 #wrapper > section > header:before {
   height: calc(100% + 10rem);
   left: calc(50vw - 5rem);
@@ -2540,6 +2545,9 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
   }
   #wrapper section > footer {
     padding: 0 8rem;
+  }
+  #wrapper section > footer h4 {
+    margin-bottom: 0.875rem;
   }
   #wrapper > section > header:before {
     height: calc(100% + 8rem);
