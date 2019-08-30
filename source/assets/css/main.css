@@ -2473,6 +2473,7 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
 }
 #wrapper section > .content {
   padding: 0 5rem;
+  text-align: justify;
 }
 #wrapper section > footer {
   padding: 0 10rem;
@@ -2493,6 +2494,14 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
 }
 #wrapper > section > .content > section > header {
   width: 32rem;
+}
+@media screen and (max-width: 1280px) {
+  #wrapper > section > .content > section > header {
+    color: #000000;
+  }
+  #wrapper > section > .content > section > header h2, #wrapper > section > .content > section > header h3, #wrapper > section > .content > section > header h4, #wrapper > section > .content > section > header h5 {
+    color: #000000;
+  }
 }
 #wrapper > section.intro > header > * {
   width: 20rem;
@@ -2527,6 +2536,7 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
   }
   #wrapper section > .content {
     padding: 0 4rem;
+    text-align: justify;
   }
   #wrapper section > footer {
     padding: 0 8rem;
@@ -2548,6 +2558,16 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
   #wrapper > section > .content > section > header {
     width: 30rem;
   }
+}
+@media screen and (max-width: 1280px) and (max-width: 1280px) {
+  #wrapper > section > .content > section > header {
+    color: #000000;
+  }
+  #wrapper > section > .content > section > header h2, #wrapper > section > .content > section > header h3, #wrapper > section > .content > section > header h4, #wrapper > section > .content > section > header h5 {
+    color: #000000;
+  }
+}
+@media screen and (max-width: 1280px) {
   #wrapper > section.intro > header > * {
     width: 21rem;
   }
@@ -2695,9 +2715,21 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
   #wrapper > section > footer {
     padding: 0 4rem 4rem 4rem;
   }
+}
+@media screen and (max-width: 1152px) and (max-width: 1280px) {
+  #wrapper > section > footer {
+    color: #000000;
+  }
+  #wrapper > section > footer h2, #wrapper > section > footer h3, #wrapper > section > footer h4, #wrapper > section > footer h5 {
+    color: #000000;
+  }
+}
+@media screen and (max-width: 1152px) {
   #wrapper > section.intro > header {
     padding: 8rem 4rem 5rem 4rem;
   }
+}
+@media screen and (max-width: 1152px) {
   #wrapper .copyright {
     padding: 0 4rem 4rem 4rem;
   }
@@ -2721,9 +2753,21 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
   #wrapper > section > footer {
     padding: 0 2rem 3rem 2rem;
   }
+}
+@media screen and (max-width: 736px) and (max-width: 1280px) {
+  #wrapper > section > footer {
+    color: #000000;
+  }
+  #wrapper > section > footer h2, #wrapper > section > footer h3, #wrapper > section > footer h4, #wrapper > section > footer h5 {
+    color: #000000;
+  }
+}
+@media screen and (max-width: 736px) {
   #wrapper > section.intro > header {
     padding: 5.5rem 2rem 2.5rem 2rem;
   }
+}
+@media screen and (max-width: 736px) {
   #wrapper .copyright {
     padding: 0 2rem 2rem 2rem;
   }
@@ -2747,9 +2791,21 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
   #wrapper > section > footer {
     padding: 0 1.5rem 2.25rem 1.5rem;
   }
+}
+@media screen and (max-width: 360px) and (max-width: 1280px) {
+  #wrapper > section > footer {
+    color: #000000;
+  }
+  #wrapper > section > footer h2, #wrapper > section > footer h3, #wrapper > section > footer h4, #wrapper > section > footer h5 {
+    color: #000000;
+  }
+}
+@media screen and (max-width: 360px) {
   #wrapper > section.intro > header {
     padding: 4.875rem 1.5rem 1.875rem 1.5rem;
   }
+}
+@media screen and (max-width: 360px) {
   #wrapper .copyright {
     padding: 0 1.5rem 1.5rem 1.5rem;
   }
