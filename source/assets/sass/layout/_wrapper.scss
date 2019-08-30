@@ -67,10 +67,10 @@
 				}
 
 				@include breakpoint('<=large') {
-					> .content >section{
+					> .content > section{
 						>header{
 							color: _palette(fg-dark);
-							h2, h3, h4, h5{ color: _palette(fg-dark); }
+							h2, h3, h4, h5, a{ color: _palette(fg-dark); }
 						}
 					}
 				}
@@ -153,7 +153,7 @@
 				@include breakpoint('<=large') {
 					> footer{
 						color: _palette(fg-dark);
-						h2, h3, h4, h5{ color: _palette(fg-dark); }
+						h2, h3, h4, h5, a{ color: _palette(fg-dark); }
 					}
 				}
 				// Intro.
