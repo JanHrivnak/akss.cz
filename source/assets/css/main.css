@@ -2500,7 +2500,7 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
 #wrapper > section > .content > section > header {
   width: 32rem;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1152px) {
   #wrapper > section > .content > section > header {
     color: #000000;
   }
@@ -2567,7 +2567,7 @@ ul.feature-icons li:nth-child(1), ul.feature-icons li:nth-child(2) {
     width: 30rem;
   }
 }
-@media screen and (max-width: 1280px) and (max-width: 1280px) {
+@media screen and (max-width: 1280px) and (max-width: 1152px) {
   #wrapper > section > .content > section > header {
     color: #000000;
   }

@@ -67,7 +67,7 @@
 					}
 				}
 
-				@include breakpoint('<=large') {
+				@include breakpoint('<=medium') {
 					> .content > section{
 						>header{
 							color: _palette(fg-dark);
